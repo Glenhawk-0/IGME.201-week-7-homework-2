@@ -37,7 +37,7 @@
 
             //initialize
             lennonFavoriteNumber = 83;
-            //initialize your number lydia (replace this comment with your code)
+            lydiaFavoriteNumber = 26;
 
 
             //Lydia's Subtract function 
@@ -45,7 +45,7 @@
 
             //start of our actual program
             Console.WriteLine("Lennon's favorite number is " + lennonFavoriteNumber + "!");
-            // write your favorite number in the console (replace this comment with your code)
+            Console.WriteLine("Lydia's favorite number is " + lydiaFavoriteNumber + "!")
 
 
             int additiveSum = Add(lennonFavoriteNumber,lydiaFavoriteNumber);
