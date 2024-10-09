@@ -12,13 +12,14 @@
     // Lydia is partner B
     internal class Program
     {
-        // below is the auto comment thing, it's the 3 ///
+        // below is the auto comment thing, not too sure how to fill this in 
         /// <summary>
         /// 
         /// </summary>
         /// <param name="num1"></param>
         /// <param name="num2"></param>
         /// <returns></returns>
+
         //Lennon's Add function  (i gotta use auto comment? whats that?)
         static int Add(int num1, int num2) 
         {//start Add
