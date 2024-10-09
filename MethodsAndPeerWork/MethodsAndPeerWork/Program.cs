@@ -64,7 +64,7 @@
             int additiveSum = Add(lennonFavoriteNumber,lydiaFavoriteNumber);
             Console.WriteLine("lennon's favorite number plus lydia's favorite number equals " + additiveSum);
             //subtracting favorite numbers 
-            int subtractiveDifference = Subtract(lennonFavoriteNumber - 1,lydiaFavoriteNumber);
+            int subtractiveDifference = Subtract(lennonFavoriteNumber, lydiaFavoriteNumber);
             Console.WriteLine("lennon's favorite number subtract by lydia's favorit number equals " + subtractiveDifference);
 
         }//end of static void Main
