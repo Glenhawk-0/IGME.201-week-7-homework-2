@@ -12,7 +12,13 @@
     // Lydia is partner B
     internal class Program
     {
-        
+        // below is the auto comment thing, it's the 3 ///
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="num1"></param>
+        /// <param name="num2"></param>
+        /// <returns></returns>
         //Lennon's Add function  (i gotta use auto comment? whats that?)
         static int Add(int num1, int num2) 
         {//start Add
@@ -41,17 +47,24 @@
 
 
             //Lydia's Subtract function 
+            static int Subtract(int num1, int num2)
+            {//start subtract
+
+                int difference = num1 - num2;
+                return (difference);
+            }//end subtract 
 
 
             //start of our actual program
             Console.WriteLine("Lennon's favorite number is " + lennonFavoriteNumber + "!");
-            Console.WriteLine("Lydia's favorite number is " + lydiaFavoriteNumber + "!")
+            Console.WriteLine("Lydia's favorite number is " + lydiaFavoriteNumber + "!");
 
 
             int additiveSum = Add(lennonFavoriteNumber,lydiaFavoriteNumber);
             Console.WriteLine("lennon's favorite number plus lydia's favorite number equals " + additiveSum);
-            // lydia calling their Subtract function (replace this comment with your code)  
-            //lydia's message to the console for their subract method (replace this comment with your code)  
+            
+            int subtractiveDifference = Subtract(lennonFavoriteNumber - 1,lydiaFavoriteNumber);
+            Console.WriteLine("lennon's favorite number subtract by lydia's favorit number equals " + subtractiveDifference);
 
         }//end of static void Main
     }//end of internal class
