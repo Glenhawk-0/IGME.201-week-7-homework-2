@@ -12,15 +12,13 @@
     // Lydia is partner B
     internal class Program
     {
-        // below is the auto comment thing, not too sure how to fill this in 
+        //Lennon's Add function  
         /// <summary>
         /// 
         /// </summary>
         /// <param name="num1"></param>
         /// <param name="num2"></param>
         /// <returns></returns>
-
-        //Lennon's Add function  (i gotta use auto comment? whats that?)
         static int Add(int num1, int num2) 
         {//start Add
 
@@ -33,6 +31,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!\n");
+            Console.WriteLine(""
 
             //varibles,
             //Lennon has set them both to zero intially for the purpose of testing without the need to wait for lydia's code
@@ -66,6 +65,8 @@
             //subtracting favorite numbers 
             int subtractiveDifference = Subtract(lennonFavoriteNumber, lydiaFavoriteNumber);
             Console.WriteLine("lennon's favorite number subtract by lydia's favorite number equals " + subtractiveDifference);
+
+            //looks good to me. good job lydia
 
         }//end of static void Main
     }//end of internal class
